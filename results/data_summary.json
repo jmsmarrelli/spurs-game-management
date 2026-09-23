@@ -1,0 +1,11 @@
+{
+  "source_games": 82,
+  "retained_games": 79,
+  "excluded_games": 3,
+  "turnovers_with_16_seconds": 1007,
+  "timeout_candidates": 2776,
+  "eligible_timeout_triggers": 144,
+  "quarter_attempts": 143,
+  "first_date": "2025-10-22",
+  "last_date": "2026-04-12"
+}

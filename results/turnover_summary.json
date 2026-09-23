@@ -1,0 +1,35 @@
+{
+  "eligible_turnovers": 1007,
+  "steal_linked": 582,
+  "primary": {
+    "sample": "All eligible",
+    "seconds": 12,
+    "estimate": 0.6862242149655952,
+    "lower": 0.5779121454045955,
+    "upper": 0.7916391433862009,
+    "games": 79,
+    "events": 1007
+  },
+  "groups": [
+    {
+      "kind": "No linked steal",
+      "seconds": 12,
+      "events": 425,
+      "games": 79,
+      "allowed": 0.36705882352941177,
+      "lower": 0.29755282679554906,
+      "upper": 0.4381264327171633,
+      "any_score": 0.16941176470588235
+    },
+    {
+      "kind": "Steal-linked",
+      "seconds": 12,
+      "events": 582,
+      "games": 79,
+      "allowed": 1.0515463917525774,
+      "lower": 0.9704069344087828,
+      "upper": 1.1315345699831365,
+      "any_score": 0.49140893470790376
+    }
+  ]
+}

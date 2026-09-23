@@ -1,0 +1,44 @@
+{
+  "eligible_timeouts": 144,
+  "matched_timeouts": 43,
+  "matched_games": 33,
+  "unique_controls": 57,
+  "matched_difference": -0.5426356589147286,
+  "lower": -1.2523648648648646,
+  "upper": 0.15980525362318798,
+  "change_difference": -0.5426356589147286,
+  "change_lower": -1.2523648648648646,
+  "change_upper": 0.15980525362318798,
+  "later_timeout_treated_share": 0.06976744186046512,
+  "later_timeout_control_share": 0.26356589147286824,
+  "trajectories": [
+    {
+      "group": "treated",
+      "phase": "pre",
+      "net": -1.9767441860465116,
+      "lower": -2.442063953488372,
+      "upper": -1.4772456709956712
+    },
+    {
+      "group": "treated",
+      "phase": "post",
+      "net": 0.7441860465116279,
+      "lower": 0.04878048780487805,
+      "upper": 1.408186456400742
+    },
+    {
+      "group": "control",
+      "phase": "pre",
+      "net": -1.9767441860465116,
+      "lower": -2.442063953488372,
+      "upper": -1.4772456709956712
+    },
+    {
+      "group": "control",
+      "phase": "post",
+      "net": 1.2868217054263567,
+      "lower": 0.7587510442773601,
+      "upper": 1.8333333333333333
+    }
+  ]
+}

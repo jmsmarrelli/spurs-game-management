@@ -1,0 +1,61 @@
+{
+  "eligible_quarters": 143,
+  "games": 74,
+  "training_quarters": 59,
+  "test_quarters": 84,
+  "training_return_rate": 0.6101694915254238,
+  "model_logloss": 0.6728612346046112,
+  "baseline_logloss": 0.6913627284674373,
+  "model_brier": 0.23741894008006265,
+  "baseline_brier": 0.24902190120518186,
+  "loss_difference": -0.01850149386282603,
+  "lower": -0.09676670463276328,
+  "upper": 0.05977929568793008,
+  "groups": [
+    {
+      "clock_band": "20\u2013<28 seconds",
+      "attempts": 29,
+      "games": 25,
+      "return_rate": 0.3103448275862069,
+      "lower": 0.15618990384615386,
+      "upper": 0.5,
+      "first_ppa": 0.7931034482758621,
+      "first_low": 0.41379310344827586,
+      "first_high": 1.1785714285714286,
+      "three_share": 0.4827586206896552,
+      "closing_net": 0.2413793103448276,
+      "net_lower": -0.38724078341013823,
+      "net_upper": 0.8125578703703701
+    },
+    {
+      "clock_band": "28\u2013<34 seconds",
+      "attempts": 59,
+      "games": 51,
+      "return_rate": 0.576271186440678,
+      "lower": 0.45161290322580644,
+      "upper": 0.6896551724137931,
+      "first_ppa": 1.11864406779661,
+      "first_low": 0.8196348733233979,
+      "first_high": 1.4482758620689655,
+      "three_share": 0.4745762711864407,
+      "closing_net": 0.6949152542372882,
+      "net_lower": 0.125,
+      "net_upper": 1.2333593749999998
+    },
+    {
+      "clock_band": "34\u201340 seconds",
+      "attempts": 55,
+      "games": 45,
+      "return_rate": 0.7272727272727273,
+      "lower": 0.5960805084745763,
+      "upper": 0.8545454545454545,
+      "first_ppa": 1.4727272727272727,
+      "first_low": 1.1428571428571428,
+      "first_high": 1.796304143126177,
+      "three_share": 0.4727272727272727,
+      "closing_net": 1.2363636363636363,
+      "net_lower": 0.6666666666666666,
+      "net_upper": 1.750102459016393
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "intercept": 0.2770816209332621,
+  "coefficients": {
+    "clock_per_5_seconds": 0.48876202151483694,
+    "margin_per_10_points": 0.3188942735012722,
+    "period_2": 0.28529090231932114,
+    "period_3": -0.7022265069583353
+  },
+  "C": 1,
+  "training_cutoff": "2026-01-01",
+  "features": "Clock centered at 30 seconds / 5, margin clipped to \u00b120 / 10, Q2 and Q3 indicators",
+  "training_events": 59
+}
