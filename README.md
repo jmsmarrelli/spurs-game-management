@@ -1,5 +1,7 @@
 # Spurs game-management studies
 
+[Read the basketball decision brief](reports/00_decision_brief.md) · [Visual design and rebuild](tools/VISUALS.md)
+
 Joseph Smarrelli · September 2026
 
 Three completed studies of San Antonio’s 2025–26 regular season. Each starts with a coaching question and carries it through source checks, an explicit comparison, uncertainty and a finished article.
@@ -10,9 +12,9 @@ Three completed studies of San Antonio’s 2025–26 regular season. Each starts
 | [After the timeout: a matched Spurs review](reports/02_timeout_reset.md) | Both matched groups rebounded from a scoring dip; the next-minute comparison did not establish a timeout advantage. | Within-game matching, balance diagnostics, sensitivity analysis |
 | [The Spurs’ last 40 seconds of a quarter](reports/03_quarter_clock.md) | Earlier shots were more often followed by a return attempt; the later-sample forecasting gain remained uncertain. | Event sequencing, regularized logistic regression, chronological validation |
 
-![Timeout comparison](figures/timeout_rebound.png)
+![Turnover comparison with uncertainty](figures/turnover_adjusted.png)
 
-Includes nine PNG/SVG figures, three self-contained HTML articles, three executed notebooks, Python source, SQL and derived records. These studies use public records only.
+Includes nine PNG/SVG figures, three research articles and a decision brief in standalone HTML, three executed notebooks, Python source, SQL and derived records. These studies use public records only.
 
 ## Reproduce
 
@@ -48,3 +50,7 @@ The derived tables are included, so `python -m src.data sql` and the tests can r
 The event and shot-location inputs come from [shufinskiy/nba_data](https://github.com/shufinskiy/nba_data), revision `e829d4678be1e075f99e5d41a1c5f97089be446b`. Dates run from October 22, 2025 through April 12, 2026. Three of 82 Spurs games fail the shared audit, leaving 79. The archive is a third-party preservation of public NBA records; the checks do not amount to independent certification by the NBA.
 
 The code is MIT licensed. NBA data retain their original rights and terms. The source archives are not redistributed in this package, and the code license does not relicense those data.
+
+## Current review
+
+See [current validation](VALIDATION_CURRENT.md) for executed checks and unresolved rebuild requirements, and [provenance](PROVENANCE.md) for AI assistance. [Portfolio navigation](https://github.com/jmsmarrelli/basketball-analytics).
