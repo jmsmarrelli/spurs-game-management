@@ -37,6 +37,7 @@ plt.rcParams.update(
         "figure.facecolor": "white",
         "axes.facecolor": "white",
         "svg.fonttype": "none",
+        "svg.hashsalt": "basketball-portfolio",
     }
 )
 
@@ -54,6 +55,8 @@ def save(fig, name, caption):
         bbox_inches="tight",
         metadata={"Creator": None, "Date": None, "Description": caption},
     )
+    svg = ROOT / f"figures/{name}.svg"
+    svg.write_text("\n".join(line.rstrip() for line in svg.read_text().splitlines()) + "\n")
     plt.close(fig)
 
 
@@ -354,6 +357,8 @@ def run():
         "quarter_forecast",
         f'{meta["training_quarters"]} training quarters; {meta["test_quarters"]} later quarters. Model log loss {meta["model_logloss"]:.3f}; baseline {meta["baseline_logloss"]:.3f}. Lower is better.',
     )
+    from tools.feature_charts import main as feature_charts
+    feature_charts()
     return 9
 
 
